@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/https//:hemanta0249.github.io/callexa1/static/css/main.1d8a1dfc.css",
+    "main.js": "/https//:hemanta0249.github.io/callexa1/static/js/main.3dc84cce.js",
+    "reactPlayerYouTube.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerYouTube.4d391d1b.chunk.js",
+    "reactPlayerSoundCloud.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerSoundCloud.b1cf372b.chunk.js",
+    "reactPlayerVimeo.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerVimeo.70e1914a.chunk.js",
+    "reactPlayerFacebook.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerFacebook.c2a46d2b.chunk.js",
+    "reactPlayerStreamable.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerStreamable.2e133a92.chunk.js",
+    "reactPlayerWistia.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerWistia.ee8ade0e.chunk.js",
+    "reactPlayerTwitch.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerTwitch.f43d5e96.chunk.js",
+    "reactPlayerDailyMotion.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerDailyMotion.14e0fe41.chunk.js",
+    "reactPlayerMixcloud.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerMixcloud.df037bc3.chunk.js",
+    "reactPlayerVidyard.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerVidyard.050e541b.chunk.js",
+    "reactPlayerKaltura.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerKaltura.c1e98db0.chunk.js",
+    "reactPlayerFilePlayer.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerFilePlayer.2875d53b.chunk.js",
+    "reactPlayerPreview.js": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerPreview.ef2d1e4d.chunk.js",
+    "static/js/592.ff58fad9.chunk.js": "/https//:hemanta0249.github.io/callexa1/static/js/592.ff58fad9.chunk.js",
+    "index.html": "/https//:hemanta0249.github.io/callexa1/index.html",
+    "main.1d8a1dfc.css.map": "/https//:hemanta0249.github.io/callexa1/static/css/main.1d8a1dfc.css.map",
+    "main.3dc84cce.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/main.3dc84cce.js.map",
+    "reactPlayerYouTube.4d391d1b.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerYouTube.4d391d1b.chunk.js.map",
+    "reactPlayerSoundCloud.b1cf372b.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerSoundCloud.b1cf372b.chunk.js.map",
+    "reactPlayerVimeo.70e1914a.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerVimeo.70e1914a.chunk.js.map",
+    "reactPlayerFacebook.c2a46d2b.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerFacebook.c2a46d2b.chunk.js.map",
+    "reactPlayerStreamable.2e133a92.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerStreamable.2e133a92.chunk.js.map",
+    "reactPlayerWistia.ee8ade0e.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerWistia.ee8ade0e.chunk.js.map",
+    "reactPlayerTwitch.f43d5e96.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerTwitch.f43d5e96.chunk.js.map",
+    "reactPlayerDailyMotion.14e0fe41.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerDailyMotion.14e0fe41.chunk.js.map",
+    "reactPlayerMixcloud.df037bc3.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerMixcloud.df037bc3.chunk.js.map",
+    "reactPlayerVidyard.050e541b.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerVidyard.050e541b.chunk.js.map",
+    "reactPlayerKaltura.c1e98db0.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerKaltura.c1e98db0.chunk.js.map",
+    "reactPlayerFilePlayer.2875d53b.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerFilePlayer.2875d53b.chunk.js.map",
+    "reactPlayerPreview.ef2d1e4d.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/reactPlayerPreview.ef2d1e4d.chunk.js.map",
+    "592.ff58fad9.chunk.js.map": "/https//:hemanta0249.github.io/callexa1/static/js/592.ff58fad9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d8a1dfc.css",
+    "static/js/main.3dc84cce.js"
+  ]
+}
