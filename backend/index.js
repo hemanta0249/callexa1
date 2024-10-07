@@ -1,17 +1,37 @@
-const connectToMongo = require('./db');
 const express = require("express");
-const {Server} = require("socket.io");
+const http = require('http');
+const { Server } = require("socket.io");
 const cors = require('cors');
+const path = require('path');
+// const connectToMongo = require('./db');
 
-connectToMongo();
-
+// connectToMongo();
 const app = express();
-const io = new Server();
-
-const port = 8000;
+const port = process.env.PORT || 3000; // Use environment variable for port
 
 app.use(express.json());
 app.use(cors());
+
+// Create an HTTP server
+const server = http.createServer(app);
+
+// Attach Socket.IO to the server
+const io = new Server(server, {
+    cors: true
+});
+
+// API routes
+app.use('/api/auth', require('./routes/auth'));
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, '../build')));
+
+// The "catchall" handler: for any request that doesn't match one above, send back index.html.
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});
+
+// Socket.io setup
 
 const ETS = new Map();
 const STE = new Map();
@@ -23,9 +43,15 @@ io.on("connection", (socket) =>{
         console.log(room);
         // ETS.set(email, socket.id);
         // STE.set(socket.id, email);
+        
         io.to(room).emit("user-joined", {id: socket.id});
         socket.join(room);
         io.to(socket.id).emit("joined-room", data);
+        // socket.join(room, () => {
+        //     console.log("joining");
+        //     io.to(room).emit("user-joined", { id: socket.id });
+        //     io.to(socket.id).emit("joined-room", data);
+        // });
     })
 
     socket.on("call-user", (data)=>{
@@ -49,16 +75,6 @@ io.on("connection", (socket) =>{
     })
 })
 
-app.get('/', (req, res)=>{
-    res.send("hello world");
-})
-
-app.use('/api/auth', require('./routes/auth'));
-
-app.listen(port,()=>{
-    console.log(`running on the port ${port}`);
-})
-
-io.listen(8080,{
-    cors : true
+server.listen(port, () => {
+    console.log(`Running on port ${port}`);
 });

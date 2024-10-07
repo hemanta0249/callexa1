@@ -8,7 +8,7 @@ export const useSocket = ()=>{
 }
 
 const SocketState = (props) => {
-    const socket = useMemo(()=> io("localhost:8080"), []);
+    const socket = useMemo(()=> io("/"), []);
   return (
     <div>
       <SocketContext.Provider value={{socket}}>
