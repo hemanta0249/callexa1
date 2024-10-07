@@ -1,10 +1,11 @@
 import './App.css';
+import './style/customStyle.css';
 import {
   HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import 'react-toastify/dist/ReactToastify.css';
+
 import SocketState from "./context/SocketState"
 import Room from './components/Room';
 import PeerState from './context/PeerState';
