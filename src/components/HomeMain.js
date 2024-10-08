@@ -1,14 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 
 const HomeMain = () => {
-
-    useEffect(() => {
-        if(localStorage.getItem("token")){
-            navigate('/home');
-        }
-    }, [navigate])
 
     const navigate = useNavigate();
     // State for form switching
