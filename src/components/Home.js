@@ -8,7 +8,8 @@ const Home = (e) => {
     const [room1, setRoom1] = useState("");
     const [room2, setRoom2] = useState("");
     // const [arr, setArr] = useState([]);
-
+    
+    
     const navigate = useNavigate();
 
     const {socket} = useSocket();
@@ -97,7 +98,6 @@ const Home = (e) => {
 
     const handleSubmit2 = (e)=>{
         e.preventDefault();
-        console.log("yes")
         const room = room2;
         socket.emit("join-room",{room});
         // const room1 = document.getElementById("joinRoom");
@@ -141,7 +141,6 @@ const Home = (e) => {
         setRoom2(e.target.name = e.target.value);
     }
 
-
     return (
         <>
             <Navbar />
@@ -171,7 +170,6 @@ const Home = (e) => {
                     </div>
                     <div className="box5" id='b5'>
                         <div className="container">
-
                             <form onSubmit={handleSubmit2}>
                                 <div className="mb-3">
                                     <input type="text" value={room2} placeholder='Enter room code here' onChange={handleChange2} className="form-control" id="joinRoom" name='joinRoom' />

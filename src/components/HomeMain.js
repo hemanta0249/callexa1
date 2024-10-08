@@ -87,7 +87,7 @@ const HomeMain = () => {
     };
 
     return (
-        <div>
+        <div className='main-container'>
             <ToastContainer />
 
             <div style={{ padding: "0 1rem", width: "100vw" }}>

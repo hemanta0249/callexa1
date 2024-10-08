@@ -14,6 +14,7 @@ import Home2 from './components/Home2';
 import Home3 from './components/Home3';
 import Home from './components/Home';
 import HomeMain from './components/HomeMain';
+import Home01 from './components/Home01';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
 
               <Routes>
                 <Route path="/" element={<HomeMain />} />
-                <Route path="/home" element={<Home />} />
+                {/* <Route path="/home" element={<Home />} /> */}
+                <Route path="/home" element={<Home01 />} />
                 <Route path="/room/:roomId" element={<Room />} />
                 {/* <Route path="/" element={<Home2 />} /> */}
                 {/* <Route path="/signup" element={<Home3 />} /> */}
